@@ -13,7 +13,7 @@ type Todo = {
 let todos: Todo[] = [];
 let doneTasks: Todo[] = [];
 
-// - 할 일 목록 렌더링 하는 함수 정의
+// -  할 일 목록 렌더링 하는 함수 정의
 const renderTasks = (): void => {
   todoList.innerHTML = "";
   doneList.innerHTML = "";
